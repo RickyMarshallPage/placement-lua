@@ -1010,7 +1010,7 @@ local function isInArray(array, value)
 	end
 end
 
-local mouse = game.Players.Localowner:GetMouse()
+local mouse = owner:GetMouse()
 
 mouse.KeyDown:Connect(function(keyPressed)
 	if keyPressed == "q" then
